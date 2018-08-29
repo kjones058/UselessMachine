@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onFinish() {
                 switchUseless.setChecked(false);
-                //Log.d(TAG, "onFinish: switch set to false");
+                Log.d(TAG, "onFinish: switch set to false");
             }
 
         }.start();
